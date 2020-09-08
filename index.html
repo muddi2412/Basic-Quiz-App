@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <div id="heading">
+        <h1>Quiz App</h1>
+    </div>
+
+    <div id="quiz-section">
+        <fieldset>
+            <h4>What is your course Name?</h4>
+            <label>
+                <input type="radio" name="course" id="q1-ans">Web and Hybrid
+            </label>
+            <label>
+                <input type="radio" name="course">Python
+            </label>
+            <label>
+                <input type="radio" name="course">Andriod
+            </label>
+        </fieldset>
+        <fieldset>
+            <h4>What is your Insitute Name?</h4>
+            <label>
+                <input type="radio" name="insitute">Computer Collegiate
+            </label>
+            <label>
+                <input type="radio" name="insitute">Aptech
+            </label>
+            <label>
+                <input type="radio" name="insitute" id="q2-ans">Saylani Welfare
+            </label>
+        </fieldset>
+        <fieldset>
+            <h4>What is your Teacher Name ?</h4>
+            <label>
+                <input type="radio" name="teacher">Imran , Ghous and Altaf
+            </label>
+            <label>
+                <input type="radio" name="teacher" id="q3-ans">Ali Mughal , Ghous and Basit
+            </label>
+            <label>
+                <input type="radio" name="teacher">Ali Mughal , Basit and Saeed
+            </label>
+        </fieldset>
+        <button onclick="result()">Sumbit & Result</button>
+    </div>
+</body>
+
+</html>
